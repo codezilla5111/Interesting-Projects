@@ -1,0 +1,202 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  /* Overruled by Bootstrap css */
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation-Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+  /* Overruled by Bootstrap css */
+  padding-left: 0;
+  /* Overruled by Bootstrap css */
+  padding-right: 0;
+  /* Overruled by Bootstrap css */
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-image */
+.Title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*Sections */
+
+.coloured-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Features-Section */
+
+#features {
+  background-color: white;
+  padding: 7% 20%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing-Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* Overruled by Bootstrap css */
+  padding-left: 2%;
+  /* Overruled by Bootstrap css */
+  padding-right: 2%;
+}
+
+.price-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* CTA Section */
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer-Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon {
+  /* Overruled by Bootstrap css */
+  margin: 20px 10px;
+}
+
+.footer-icon:hover {
+  color: grey;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .Title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
